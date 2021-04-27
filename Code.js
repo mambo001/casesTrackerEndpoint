@@ -247,6 +247,7 @@ function doModifiedInsert(req, sheet) {
        country = req.country,
        RMTO = "",
        surveyType = req.surveyType,
+       targeting = req.targeting,
        screenshot = req.screenshot,
        surveyDecision = req.surveyDecision,
        startTimeMNL = req.startTimeMNL,
@@ -286,7 +287,8 @@ function doModifiedInsert(req, sheet) {
          AHT,
          numberOfQuestions,
          numberOfInteractions,
-         yearMonth
+         yearMonth,
+         targeting
       ]);
       var result = "Insertion successful";
    }
