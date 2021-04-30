@@ -244,7 +244,7 @@ function doModifiedInsert(req, sheet) {
        language = req.language,
        timesReviewed = req.timesReviewed,
        numberOfQuestions = req.numberOfQuestions,
-       country = req.country,
+       country = "",
        RMTO = "",
        surveyType = req.surveyType,
        targeting = req.targeting,
